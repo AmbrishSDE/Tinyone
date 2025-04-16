@@ -1,0 +1,114 @@
+ *{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;   
+ }
+
+.HeroSection{
+background-color: #fcdb00;
+height: 400px;
+padding: 60px 0 110px;
+}
+
+/* .container{
+width: 960px;
+border: 2px solid red;
+margin: 0 auto;
+} */
+
+/* li{
+    color: red;
+    display: inline-block; /*to make line inline
+} */
+
+/* .col-5{
+    width: calc((100% *  5) / 12);
+    float: left; /*to make html element RH */
+
+
+/* .row{
+display: table;
+clear: both;
+width: 100%;
+}
+  */ 
+/* styles re on the ul so text-decoration: none */
+/* 
+ul{
+    list-style: none;
+}
+
+a:link, a:visited{
+text-decoration: none;
+} */
+
+.navbar ul li{
+display: inline-block;
+ /* margin:  0 20px;  */
+ margin: 0 20px;
+}
+
+.navbar ul li:last-child{
+    margin-right: 0;
+}
+
+.HeroSection .navbar a{
+color: #010101;    
+/* here we are giving colur to li so anchor tag also inherit but it does not so we have to give colour separately to anchor -ms-transform-origin-y: font-family: ;;
+ */
+ font-size: 22px;
+ font-weight: bold;
+ text-transform: capitalize;
+ /* padding: 10px 10px 10px 10px; */
+ height: 47px;
+ line-height: 47px;
+ padding: 0 12px; 
+}
+
+.HeroSection .navbar li:last-child a{
+    padding-right: 0;
+}
+
+.navbar ul{
+display: inline-block;  
+text-align: right;  
+}
+
+.offset-1{
+margin-left: calc((100% * 1 )/12);
+}
+
+.text-centre{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.header{
+margin-bottom: 70px;
+/* mostly we use margin-bottom as 
+if we use mb and mt t will get overlap */
+}
+
+.inspiration{
+    margin-top: /*130px;*/ 60px;
+}
+
+.icons li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.icons li a{
+    color: #010101; /*as a tag do not inheri parents property */
+    font-size: 36px;
+    transition: all 0.5s linear;
+}
+
+.icons li a:hover{
+    transform: scale(1.2) rotate(360deg)
+}
+
+
